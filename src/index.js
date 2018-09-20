@@ -14,7 +14,7 @@ if (!semver.satisfies(process.versions.node, '=8.9.3')) {
 
 // expect relative path to file.html as argument
 if (process.argv.length <= 2) {
-  console.error(`Usage: ${__filename} relative_path_to_html_file`.red);
+  console.error(`Usage: npm start relative_path_to_html_file`.red);
   console.error(`Exemple: npm start ./src/test.html\n`.green);
   process.exit(-1);
 }
